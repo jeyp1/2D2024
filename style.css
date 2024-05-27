@@ -1,15 +1,37 @@
-*{margin: 0;
+*{
+    margin: 0;
     padding: 0;
-    }
-
-    
-header{
-background-color: #05253a;
-color: white;
 }
 
+.cabecalho{
+    background-image: linear-gradient(#000000, #003356);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
 
-.fotoescola{
-width: 25%;
+.IMG-cabecalho{
+    width: 20%;
+}
 
+.escrita-cabecalho-item{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 200%;
+}
+
+.corpo{
+    background-image: linear-gradient(#003356 100%,#006FBC);
+}
+
+.imagem-JoaoBatista{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#003356 100%,#006FBC);
+    color: white;
+    display: flex;
 }
